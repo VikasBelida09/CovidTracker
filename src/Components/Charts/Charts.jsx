@@ -10,7 +10,7 @@ export default function Charts({data:{confirmed,deaths,recovered},country}) {
         }
         fetchAPI()
         console.log(dailydata)
-    }, [])
+    }, [dailydata])
 
     const lineChart=()=>{
       return (
